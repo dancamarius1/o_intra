@@ -1,0 +1,148 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    min-height: 100%;
+    background-color: black;
+}
+
+h1{
+    font-family: Helvetica, Arial,  sans-serif;
+    font-weight: bold;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* Custom variables */
+
+
+
+/* NAVBAR */
+
+.logo-hello{
+    max-height: 50px;
+    /* max-width: 10px; */
+}
+
+.profile-avatar{
+    width: auto;
+    max-height: 70px;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link.active{
+    color: #ff7900;
+}
+.dropdown-toggle{
+    color: white;
+}
+.nav-link:hover{
+    color: #ff7900;
+}
+
+.nav-item h5{
+    display: none;
+}
+
+.nav-item:hover{
+    border: 2px solid white;
+    /* transition: 0.25s ease-in-out; */
+    display: flex;
+    align-content: center;
+}
+.nav-item:hover h5{
+    margin-bottom: 0;
+    display: inline-block;
+    align-self: center;
+    /* transition: 0.25s ease-in-out; */
+}
+.profile-avatar{
+    margin-left: 30px;
+}
+
+/* top menu */
+
+.carousel-item{
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.careousel-banner{
+    object-fit: cover;
+}
+
+.main-carousel-icon-left,.main-carousel-icon-right{
+    color: #ff7900 !important;
+}
+
+
+#carousel-noutati, .news-inner{
+    max-height: 350px;
+}
+
+
+.most-used {
+    border: 2px solid white;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+.most-used h5{
+    display: flex;
+    align-items: center;
+}
+.logo-omy{
+    height: 60px;
+    width: auto;
+}
+
+.minisite-img{
+    object-fit: cover;
+    height: 300px;
+    width: 400px;
+}
+
+.promo-img{
+    height: 145px;
+    width: auto;
+}
+
+.img-actiuni-recente{
+    /* Cand vreau ca o imagine sa acopere dimensiunea dorita fara sa se intinda sau distorsioneze, folosesc object-fit:cover */
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+}
+
+
+/* FOOTER */
+
+.footer-logo{
+    max-height: 50px;
+    /* max-width: 10px; */
+}
+
+.footer-logo-section{
+    margin-right: 100px;
+}
+
+.iconuri-robotei{
+position: fixed;
+right: 10px;
+bottom: 30px;
+}
+
+.icon-tombola{
+position: fixed;
+right: 0px;
+bottom: 50%;
+}
